@@ -1,0 +1,19 @@
+{
+  "review": {
+    "id": "ID",
+    "description": "Beschrijving",
+    "startDate": "Startdatum",
+    "endDate": "Einddatum",
+    "createdBy": "Aangemaakt door",
+    "createdAt": "Aangemaakt op",
+    "status": "Status",
+    "version": "Versie",
+    "createdAge": "Leeftijd (dagen)",
+    "title": "Beoordelingstitel",
+    "summary": "Samenvatting",
+    "reviewerEmail": "E-mailadres beoordelaar",
+    "findings": "Bevindingen",
+    "decision": "Beslissing",
+    "reviewDate": "Beoordelingsdatum"
+  }
+}
