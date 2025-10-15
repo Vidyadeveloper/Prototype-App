@@ -1,0 +1,18 @@
+{
+  "spike": {
+    "id": "ID",
+    "description": "Short description of the spike",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "createdBy": "Created By",
+    "createdAt": "Created At",
+    "status": "Status (draft, active, inactive, archived)",
+    "version": "Version",
+    "createdAge": "Age (days)",
+    "title": "Spike Title / short description",
+    "hypothesis": "Hypothesis / what the spike aims to prove or disprove",
+    "outcome": "Outcome / results and recommended next steps",
+    "allocatedHours": "Allocated Hours / time budget for the spike",
+    "dueDate": "Due Date / target completion date"
+  }
+}
