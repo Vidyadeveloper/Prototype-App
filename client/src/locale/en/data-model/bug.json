@@ -1,0 +1,18 @@
+{
+  "bug": {
+    "id": "ID",
+    "description": "Description",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "createdBy": "Created By",
+    "createdAt": "Created At",
+    "status": "Status",
+    "version": "Version",
+    "createdAge": "Age (days)",
+    "title": "Title",
+    "severity": "Severity",
+    "reporterEmail": "Reporter Email",
+    "foundInVersion": "Found In Version",
+    "createdDate": "Created Date"
+  }
+}
