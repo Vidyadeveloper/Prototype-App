@@ -1,0 +1,19 @@
+{
+  "review": {
+    "id": "ID",
+    "description": "Description",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "createdBy": "Created By",
+    "createdAt": "Created At",
+    "status": "Status",
+    "version": "Version",
+    "createdAge": "Age (days)",
+    "title": "Review Title",
+    "summary": "Summary",
+    "reviewerEmail": "Reviewer Email",
+    "findings": "Findings",
+    "decision": "Decision",
+    "reviewDate": "Review Date"
+  }
+}
