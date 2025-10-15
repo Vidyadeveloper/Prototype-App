@@ -1,0 +1,18 @@
+{
+  "bug": {
+    "id": "ID",
+    "description": "Omschrijving",
+    "startDate": "Startdatum",
+    "endDate": "Einddatum",
+    "createdBy": "Aangemaakt door",
+    "createdAt": "Aangemaakt op",
+    "status": "Status",
+    "version": "Versie",
+    "createdAge": "Leeftijd (dagen)",
+    "title": "Titel",
+    "severity": "Ernst",
+    "reporterEmail": "E-mail melder",
+    "foundInVersion": "Gevonden in Versie",
+    "createdDate": "Aanmaakdatum"
+  }
+}
