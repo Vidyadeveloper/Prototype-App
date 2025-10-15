@@ -1,0 +1,7 @@
+{
+  "role": {
+    "name": "Rolnaam",
+    "description": "Beschrijving",
+    "permissions": "Rechten / toegestane acties (lijst)"
+  }
+}
