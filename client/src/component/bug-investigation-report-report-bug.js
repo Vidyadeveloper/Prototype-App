@@ -7,7 +7,6 @@ class BugInvestigationReportReportBug extends DynamicHtmlElement {
     super();
   }
 
-
   connectedCallback() {
     this.render();
     super.connectedCallback();
