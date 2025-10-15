@@ -1,0 +1,20 @@
+{
+  "project": {
+    "id": "ID",
+    "description": "Omschrijving / korte omschrijving van het project",
+    "startDate": "Startdatum",
+    "endDate": "Einddatum",
+    "createdBy": "Aangemaakt door",
+    "createdAt": "Aangemaakt op",
+    "status": "Status (draft, active, inactive, archived)",
+    "version": "Versie",
+    "createdAge": "Leeftijd (dagen)",
+    "title": "Titel",
+    "summary": "Samenvatting / doelen van het project",
+    "ownerEmail": "E-mail eigenaar / verantwoordelijke",
+    "repoUrl": "Repository URL",
+    "branch": "Branch gebruikt voor experiment / kandidaat",
+    "estimateHours": "Geschatte uren",
+    "createdDate": "Aanmaakdatum"
+  }
+}
