@@ -2,7 +2,7 @@
 import {FormDesignerComponent} from "../../../node_modules/@blaze-case-ai/blaze-engine/client/src/component/ux/form-designer-component.js";
 import "../../../node_modules/@blaze-case-ai/blaze-engine/client/src/component/ux/blaze-field-group.js";
 
-class FeatureSpikeResearchConductResearch extends FormDesignerComponent {
+class FeatureSpikeResearchConductResearch extends DynamicHtmlElement {
    constructor() {
     super();
   }
