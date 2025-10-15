@@ -1,0 +1,18 @@
+{
+  "spike": {
+    "id": "ID",
+    "description": "Korte beschrijving van de spike",
+    "startDate": "Startdatum",
+    "endDate": "Einddatum",
+    "createdBy": "Aangemaakt door",
+    "createdAt": "Aangemaakt op",
+    "status": "Status (draft, actief, inactief, gearchiveerd)",
+    "version": "Versie",
+    "createdAge": "Leeftijd (dagen)",
+    "title": "Spike titel / korte omschrijving",
+    "hypothesis": "Hypothese / wat de spike probeert te bewijzen of ontkrachten",
+    "outcome": "Resultaat / bevindingen en aanbevolen vervolgstappen",
+    "allocatedHours": "Toegewezen uren / tijdsbudget voor de spike",
+    "dueDate": "Vervaldatum / streefdatum voor voltooiing"
+  }
+}
