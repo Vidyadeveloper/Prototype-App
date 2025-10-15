@@ -1,0 +1,19 @@
+{
+  "prototype": {
+    "id": "ID",
+    "description": "Korte beschrijving van het prototype",
+    "startDate": "Startdatum",
+    "endDate": "Einddatum",
+    "createdBy": "Aangemaakt door",
+    "createdAt": "Aangemaakt op",
+    "status": "Status (draft, actief, inactief, gearchiveerd)",
+    "version": "Versie",
+    "createdAge": "Leeftijd (dagen)",
+    "name": "Prototype naam / korte identifier",
+    "purpose": "Doel / gebruikersbehoefte die dit prototype probeert te valideren",
+    "uiMockUrl": "Link naar ontwerp mockups of interactieve prototype",
+    "prototypeVersion": "Prototype versie identifier",
+    "state": "Levenscyclusstatus (draft, in-review, goedgekeurd)",
+    "createdDate": "Aanmaakdatum"
+  }
+}
