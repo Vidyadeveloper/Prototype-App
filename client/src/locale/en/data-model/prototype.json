@@ -1,0 +1,19 @@
+{
+  "prototype": {
+    "id": "ID",
+    "description": "Short description of the prototype",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "createdBy": "Created By",
+    "createdAt": "Created At",
+    "status": "Status (draft, active, inactive, archived)",
+    "version": "Version",
+    "createdAge": "Age (days)",
+    "name": "Prototype Name / short identifier",
+    "purpose": "Purpose / user need this prototype aims to validate",
+    "uiMockUrl": "Link to design mockups or interactive prototype",
+    "prototypeVersion": "Prototype version identifier",
+    "state": "Lifecycle state (draft, in-review, approved)",
+    "createdDate": "Created Date"
+  }
+}
