@@ -1,0 +1,20 @@
+{
+  "project": {
+    "id": "ID",
+    "description": "Short description of the project",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "createdBy": "Created By",
+    "createdAt": "Created At",
+    "status": "Status (draft, active, inactive, archived)",
+    "version": "Version",
+    "createdAge": "Age (days)",
+    "title": "Title",
+    "summary": "Summary / project goals",
+    "ownerEmail": "Owner Email / responsible person",
+    "repoUrl": "Repository URL",
+    "branch": "Branch used for experiment / candidate",
+    "estimateHours": "Estimated Hours",
+    "createdDate": "Created Date"
+  }
+}
