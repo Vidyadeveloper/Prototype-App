@@ -1,0 +1,7 @@
+{
+  "role": {
+    "name": "Role Name",
+    "description": "Description",
+    "permissions": "Permissions (list of allowed actions)"
+  }
+}
