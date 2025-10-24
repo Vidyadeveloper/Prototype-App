@@ -24,7 +24,7 @@ class ExperimentProjectCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "experiment-project-planning-define-project",
-              dataModelReference: { models: ["project.title", "project.summary", "project.ownerEmail"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "exp.collect_prototypes",
@@ -32,7 +32,7 @@ class ExperimentProjectCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "experiment-project-planning-gather-prototypes",
-              dataModelReference: { models: ["prototype.name", "prototype.purpose", "prototype.uiMockUrl"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -62,7 +62,7 @@ class ExperimentProjectCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "experiment-project-execution-development",
-              dataModelReference: { models: ["project.repoUrl", "project.branch", "project.estimateHours"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "exp.run_spike",
@@ -70,7 +70,7 @@ class ExperimentProjectCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "experiment-project-execution-run-spike",
-              dataModelReference: { models: ["spike.title", "spike.hypothesis", "spike.allocatedHours"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -100,7 +100,7 @@ class ExperimentProjectCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "experiment-project-review-demo-&-review",
-              dataModelReference: { models: ["prototype.version", "review.reviewerEmail", "review.findings"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -130,7 +130,7 @@ class ExperimentProjectCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "experiment-project-completion-archive-project",
-              dataModelReference: { models: ["project.status", "project.createdDate"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",

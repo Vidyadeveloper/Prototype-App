@@ -24,7 +24,7 @@ class BugInvestigationCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "bug-investigation-report-report-bug",
-              dataModelReference: { models: ["bug.title", "bug.description", "bug.reporterEmail", "bug.foundInVersion"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -54,7 +54,7 @@ class BugInvestigationCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "bug-investigation-triage-triage-bug",
-              dataModelReference: { models: ["bug.severity", "bug.status", "review.reviewerEmail"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -84,7 +84,7 @@ class BugInvestigationCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "bug-investigation-fix-&-verify-fix-issue",
-              dataModelReference: { models: ["project.repoUrl", "project.branch", "bug.status"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "bug.verify",
@@ -92,7 +92,7 @@ class BugInvestigationCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "bug-investigation-fix-&-verify-verify-fix",
-              dataModelReference: { models: ["bug.status", "bug.createdDate"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",

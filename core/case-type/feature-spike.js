@@ -24,7 +24,7 @@ class FeatureSpikeCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "feature-spike-initiation-kickoff-spike",
-              dataModelReference: { models: ["spike.title", "spike.hypothesis", "spike.dueDate"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -54,7 +54,7 @@ class FeatureSpikeCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "feature-spike-research-conduct-research",
-              dataModelReference: { models: ["spike.allocatedHours", "spike.outcome"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -84,7 +84,7 @@ class FeatureSpikeCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "feature-spike-decision-recommendation",
-              dataModelReference: { models: ["spike.outcome", "project.status"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "spike.review",
@@ -92,7 +92,7 @@ class FeatureSpikeCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "feature-spike-decision-review-findings",
-              dataModelReference: { models: ["review.reviewerEmail", "review.decision"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",

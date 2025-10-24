@@ -24,7 +24,7 @@ class ReleaseCandidateReviewCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "release-candidate-review-prepare-assemble-rc",
-              dataModelReference: { models: ["project.branch", "prototype.version", "review.reviewerEmail"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -54,7 +54,7 @@ class ReleaseCandidateReviewCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "release-candidate-review-qa-run-qa",
-              dataModelReference: { models: ["bug.foundInVersion", "bug.status", "bug.severity"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -84,7 +84,7 @@ class ReleaseCandidateReviewCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "release-candidate-review-sign-off-sign-off-review",
-              dataModelReference: { models: ["review.decision", "review.summary", "review.reviewDate"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",

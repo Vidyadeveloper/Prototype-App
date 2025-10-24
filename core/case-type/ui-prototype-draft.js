@@ -24,7 +24,7 @@ class UiPrototypeDraftCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "ui-prototype-draft-drafting-create-mock",
-              dataModelReference: { models: ["prototype.name", "prototype.purpose", "prototype.uiMockUrl"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -54,7 +54,7 @@ class UiPrototypeDraftCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "ui-prototype-draft-iteration-collect-feedback",
-              dataModelReference: { models: ["review.reviewerEmail", "review.findings", "review.reviewDate"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "ui.apply_changes",
@@ -62,7 +62,7 @@ class UiPrototypeDraftCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "ui-prototype-draft-iteration-apply-changes",
-              dataModelReference: { models: ["prototype.version", "prototype.state"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
@@ -92,7 +92,7 @@ class UiPrototypeDraftCase extends BlazeCase {
               type: "manual",
               status: "pending",
               view: "ui-prototype-draft-finalize-finalize-prototype",
-              dataModelReference: { models: ["prototype.version", "prototype.createdDate"] }
+              dataModelReference: { models: [] }
             },
             {
               id: "end",
