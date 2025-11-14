@@ -68,7 +68,10 @@ class ExperimentProjectCase extends BlazeCase {
           type: "manual",
           status: "pending",
           view: "experiment-project-execution-development",
-          dataModelReference: { models: [] }
+          dataModelReference: { models: [] },
+          routingConfig:           {
+            "routeTo": "CurrentUser"
+          }
         },
 {
           id: "exp.run_spike",
