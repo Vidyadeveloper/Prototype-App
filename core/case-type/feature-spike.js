@@ -84,7 +84,13 @@ class FeatureSpikeCase extends BlazeCase {
           type: "manual",
           status: "pending",
           view: "feature-spike-decision-recommendation",
-          dataModelReference: { models: [] }
+          dataModelReference: { models: [] },
+          routingConfig: {
+          "routeTo": "TaskQueue",
+          "taskQueue": {
+                    "id": "checkfortask_again"
+          }
+}
         },
 {
           id: "spike.review",
