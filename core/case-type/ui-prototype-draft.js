@@ -6,104 +6,119 @@ class UiPrototypeDraftCase extends BlazeCase {
       "ui-prototype-draft",
       "UI Prototype Draft",
       [
-        {
-          id: "Drafting",
-          label: "Drafting",
-          steps: [
-            {
-              id: "start",
-              label: "Start",
-              type: "start",
-              status: "pending",
-              view: "ui-prototype-draft-drafting-start",
-              dataModelReference: { models: [] }
-            },
-            {
-              id: "ui.create_mock",
-              label: "Create Mock",
-              type: "manual",
-              status: "pending",
-              view: "ui-prototype-draft-drafting-create-mock",
-              dataModelReference: { models: [] }
-            },
-            {
-              id: "end",
-              label: "End",
-              type: "end",
-              status: "pending",
-              view: "ui-prototype-draft-drafting-end",
-              dataModelReference: { models: [] }
-            }
-          ]
+{
+      id: "Drafting",
+      label: "Drafting",
+      steps: [
+{
+          id: "start",
+          label: "Start",
+          type: "start",
+          status: "pending",
+          view: "ui-prototype-draft-drafting-start",
+          dataModelReference: { models: [] }
         },
-        {
-          id: "Iteration",
-          label: "Iteration",
-          steps: [
-            {
-              id: "start",
-              label: "Start",
-              type: "start",
-              status: "pending",
-              view: "ui-prototype-draft-iteration-start",
-              dataModelReference: { models: [] }
-            },
-            {
-              id: "ui.collect_feedback",
-              label: "Collect Feedback",
-              type: "manual",
-              status: "pending",
-              view: "ui-prototype-draft-iteration-collect-feedback",
-              dataModelReference: { models: [] }
-            },
-            {
-              id: "ui.apply_changes",
-              label: "Apply Changes",
-              type: "manual",
-              status: "pending",
-              view: "ui-prototype-draft-iteration-apply-changes",
-              dataModelReference: { models: [] }
-            },
-            {
-              id: "end",
-              label: "End",
-              type: "end",
-              status: "pending",
-              view: "ui-prototype-draft-iteration-end",
-              dataModelReference: { models: [] }
-            }
-          ]
+{
+          id: "ui.create_mock",
+          label: "Create Mock",
+          type: "manual",
+          status: "pending",
+          view: "ui-prototype-draft-drafting-create-mock",
+          dataModelReference: { models: [] },
+          routingConfig: {
+          "routeTo": "AnotherUser"
+}
         },
-        {
-          id: "Finalize",
-          label: "Finalize",
-          steps: [
-            {
-              id: "start",
-              label: "Start",
-              type: "start",
-              status: "pending",
-              view: "ui-prototype-draft-finalize-start",
-              dataModelReference: { models: [] }
-            },
-            {
-              id: "ui.finalize",
-              label: "Finalize Prototype",
-              type: "manual",
-              status: "pending",
-              view: "ui-prototype-draft-finalize-finalize-prototype",
-              dataModelReference: { models: [] }
-            },
-            {
-              id: "end",
-              label: "End",
-              type: "end",
-              status: "pending",
-              view: "ui-prototype-draft-finalize-end",
-              dataModelReference: { models: [] }
-            }
-          ]
+{
+          id: "end",
+          label: "End",
+          type: "end",
+          status: "pending",
+          view: "ui-prototype-draft-drafting-end",
+          dataModelReference: { models: [] }
         }
+      ]
+    },
+{
+      id: "Iteration",
+      label: "Iteration",
+      steps: [
+{
+          id: "start",
+          label: "Start",
+          type: "start",
+          status: "pending",
+          view: "ui-prototype-draft-iteration-start",
+          dataModelReference: { models: [] }
+        },
+{
+          id: "ui.collect_feedback",
+          label: "Collect Feedback",
+          type: "manual",
+          status: "pending",
+          view: "ui-prototype-draft-iteration-collect-feedback",
+          dataModelReference: { models: [] },
+          routingConfig: {
+          "routeTo": "TaskQueue",
+          "taskQueue": {
+                    "id": "checkfortask"
+          }
+}
+        },
+{
+          id: "ui.apply_changes",
+          label: "Apply Changes",
+          type: "manual",
+          status: "pending",
+          view: "ui-prototype-draft-iteration-apply-changes",
+          dataModelReference: { models: [] },
+          routingConfig: {
+          "routeTo": "TaskQueue",
+          "taskQueue": {
+                    "id": "checkfortask"
+          }
+}
+        },
+{
+          id: "end",
+          label: "End",
+          type: "end",
+          status: "pending",
+          view: "ui-prototype-draft-iteration-end",
+          dataModelReference: { models: [] }
+        }
+      ]
+    },
+{
+      id: "Finalize",
+      label: "Finalize",
+      steps: [
+{
+          id: "start",
+          label: "Start",
+          type: "start",
+          status: "pending",
+          view: "ui-prototype-draft-finalize-start",
+          dataModelReference: { models: [] }
+        },
+{
+          id: "ui.finalize",
+          label: "Finalize Prototype",
+          type: "manual",
+          status: "pending",
+          view: "ui-prototype-draft-finalize-finalize-prototype",
+          dataModelReference: { models: [] }
+        },
+{
+          id: "end",
+          label: "End",
+          type: "end",
+          status: "pending",
+          view: "ui-prototype-draft-finalize-end",
+          dataModelReference: { models: [] }
+        }
+      ]
+    }
       ]
     );
   }
