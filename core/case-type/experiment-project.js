@@ -24,7 +24,10 @@ class ExperimentProjectCase extends BlazeCase {
           type: "manual",
           status: "pending",
           view: "experiment-project-planning-define-project",
-          dataModelReference: { models: [] }
+          dataModelReference: { models: [] },
+          routingConfig:           {
+            "routeTo": "CurrentUser"
+          }
         },
 {
           id: "exp.collect_prototypes",
@@ -32,7 +35,10 @@ class ExperimentProjectCase extends BlazeCase {
           type: "manual",
           status: "pending",
           view: "experiment-project-planning-gather-prototypes",
-          dataModelReference: { models: [] }
+          dataModelReference: { models: [] },
+          routingConfig:           {
+            "routeTo": "AnotherUser"
+          }
         },
 {
           id: "end",

@@ -25,9 +25,9 @@ class UiPrototypeDraftCase extends BlazeCase {
           status: "pending",
           view: "ui-prototype-draft-drafting-create-mock",
           dataModelReference: { models: [] },
-          routingConfig: {
-          "routeTo": "AnotherUser"
-}
+          routingConfig:           {
+            "routeTo": "CurrentUser"
+          }
         },
 {
           id: "end",
@@ -58,12 +58,9 @@ class UiPrototypeDraftCase extends BlazeCase {
           status: "pending",
           view: "ui-prototype-draft-iteration-collect-feedback",
           dataModelReference: { models: [] },
-          routingConfig: {
-          "routeTo": "TaskQueue",
-          "taskQueue": {
-                    "id": "checkfortask"
+          routingConfig:           {
+            "routeTo": "AnotherUser"
           }
-}
         },
 {
           id: "ui.apply_changes",
@@ -72,12 +69,12 @@ class UiPrototypeDraftCase extends BlazeCase {
           status: "pending",
           view: "ui-prototype-draft-iteration-apply-changes",
           dataModelReference: { models: [] },
-          routingConfig: {
-          "routeTo": "TaskQueue",
-          "taskQueue": {
-                    "id": "checkfortask"
+          routingConfig:           {
+            "routeTo": "TaskQueue",
+            "taskQueue": {
+              "id": "checkfortask"
+            }
           }
-}
         },
 {
           id: "end",
