@@ -24,7 +24,13 @@ class ReleaseCandidateReviewCase extends BlazeCase {
           type: "manual",
           status: "pending",
           view: "release-candidate-review-prepare-assemble-rc",
-          dataModelReference: { models: [] }
+          dataModelReference: { models: [] },
+          routingConfig:           {
+            "routeTo": "TaskQueue",
+            "taskQueue": {
+              "id": "support_staff"
+            }
+          }
         },
 {
           id: "end",
