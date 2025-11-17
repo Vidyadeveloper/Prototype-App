@@ -28,7 +28,7 @@ class ReleaseCandidateReviewCase extends BlazeCase {
           routingConfig:           {
             "routeTo": "TaskQueue",
             "taskQueue": {
-              "id": "support_staff"
+              "id": "queue-test-1"
             }
           }
         },
